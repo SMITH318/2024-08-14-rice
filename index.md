@@ -67,7 +67,6 @@ displayed if the 'eventbrite' field in the header is not set.
 <strong>Some adblockers block the registration window. If you do not see the
   registration box below, please check your adblocker settings.</strong>
 
-<strong>Register for <u>each</u> day you plan to attend.</strong>
 <iframe
   src="https://www.eventbrite.com/tickets-external?eid={{page.eventbrite}}&ref=etckt"
   frameborder="0"
@@ -99,6 +98,11 @@ skills to researchers.
 Sign up to receive future editions and read our full archive: <a href="https://carpentries.org/newsletter/">https://carpentries.org/newsletter/</a>
   </em>
 </p>
+
+<p align="center">
+  <strong>A light breakfast and lunch will be provided for registered participants.</strong>
+</p>
+
 {% if site.carpentry == "swc" %}
 {% include swc/intro.html %}
 {% elsif site.carpentry == "dc" %}
@@ -274,12 +278,11 @@ Edit the text to match who can attend the workshop. For instance:
 - This workshop is open to the public.
 - If you are interested in attending this workshop, contact me@example.com
   for more information
-
+{% endcomment %}
 <p id="who-can-attend">
     <strong>Who can attend?:</strong>
-    This workshop is open to ....
+    This workshop is open to Rice community members and aimed at graduate students and other researchers. <b>You don't need to have any previous knowledge of the tools that will be presented at the workshop.</b>
 </p>
-{% endcomment %}
 
 <hr/>
 

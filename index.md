@@ -283,7 +283,7 @@ Edit the text to match who can attend the workshop. For instance:
     <strong>Who can attend?:</strong>
     This workshop is open to Rice community members and aimed at graduate students and other researchers. <b>You don't need to have any previous knowledge of the tools that will be presented at the workshop.</b>
 </p>
-
+{% endcomment %}
 <hr/>
 
 {% comment%}

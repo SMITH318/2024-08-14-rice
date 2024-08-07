@@ -66,6 +66,7 @@ displayed if the 'eventbrite' field in the header is not set.
 {% if page.eventbrite %}
 <strong>Some adblockers block the registration window. If you do not see the
   registration box below, please check your adblocker settings.</strong>
+<h3>If the registration pane says the event is "Sold out, <u>join the waitlist</u> and you will be admitted shortly."</h3>
 
 <iframe
   src="https://www.eventbrite.com/tickets-external?eid={{page.eventbrite}}&ref=etckt"
